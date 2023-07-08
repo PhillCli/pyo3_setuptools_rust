@@ -1,0 +1,13 @@
+[package]
+authors = ["Filip Brzęk <filip.brzek@gmail.com>"]
+edition = "2021"
+name = "pyints-validation"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+name = "setuptools_rust_starter"
+path = "./src/core/lib.rs"
+
+[dependencies]
+pyo3 = {version = "0.19.1", features = ["extension-module"]}

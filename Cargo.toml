@@ -1,7 +1,7 @@
 [package]
 authors = ["Filip Brzęk <filip.brzek@gmail.com>"]
 edition = "2021"
-name = "pyints-validation"
+name = "setuptools_rust_blueprint"
 version = "0.1.0"
 
 [lib]
